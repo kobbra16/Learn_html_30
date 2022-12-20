@@ -1,0 +1,31 @@
+#menu3 ul {
+    list-style-type: none;
+    width: 200px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu3 a:link,
+#menu3 a:visited {
+    text-decoration: none;
+    color: white;
+    font: 13px Arial;
+    border: 1px solid black;
+    display: block;
+    padding: 0px 5px;
+    line-height: 30px;
+    background-color: #484848;
+    font-weight: bold;
+}
+
+#menu3 li {
+    margin-bottom: 5px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
